@@ -102,7 +102,16 @@ img {
   border: none;
 }
 
-.icon {
+.icons {
+  width: 50px;
+  height: 50px;
+  flex-direction: column;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10%;
+  border: none;
 }
 
 .github-icon {
@@ -110,12 +119,6 @@ img {
   height: 600px;
   background: lightpink;
   color: black;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  border-radius: 10%;
-  border: none;
 }
 
 .codepen-icon:hover {
